@@ -7,6 +7,10 @@ name = "assembly-line"
 version = "0.1.0"
 
 [[package]]
+name = "caesar"
+version = "0.1.0"
+
+[[package]]
 name = "cheat_sheet"
 version = "0.1.0"
 
@@ -15,7 +19,15 @@ name = "health_statistics"
 version = "0.1.0"
 
 [[package]]
+name = "mult_table"
+version = "0.1.0"
+
+[[package]]
 name = "short_fibonacci"
+version = "0.1.0"
+
+[[package]]
+name = "smallest_elements"
 version = "0.1.0"
 
 [[package]]

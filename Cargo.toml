@@ -4,5 +4,8 @@ members = [
     "aufgaben-1/assembly-line",
     "aufgaben-1/health-statistics", 
     "aufgaben-1/two-fer", 
-    "aufgaben-1/short-fibonacci"
+    "aufgaben-1/short-fibonacci",
+    "aufgaben-2/caesar",
+    "aufgaben-2/mult_table",
+    "aufgaben-2/smallest_elements"
 ]
