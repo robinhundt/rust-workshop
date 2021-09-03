@@ -196,49 +196,6 @@ fn main() {
         break
     }
 
-        // Generics //
-
-    struct Foo<T> { bar: T }
-
-    // This is defined in the standard library as `Option`
-    enum Optional<T> {
-        SomeVal(T),
-        NoVal,
-    }
-
-    // Methods //
-
-    impl<T> Foo<T> {
-        // Methods take an explicit `self` parameter
-        fn bar(&self) -> &T { // self is borrowed
-            &self.bar
-        }
-        fn bar_mut(&mut self) -> &mut T { // self is mutably borrowed
-            &mut self.bar
-        }
-        fn into_bar(self) -> T { // here self is consumed
-            self.bar
-        }
-    }
-
-    let a_foo = Foo { bar: 1 };
-    println!("{}", a_foo.bar()); // 1
-
-    // Traits (known as interfaces or typeclasses in other languages) //
-
-    trait Frobnicate<T> {
-        fn frobnicate(self) -> Option<T>;
-    }
-
-    impl<T> Frobnicate<T> for Foo<T> {
-        fn frobnicate(self) -> Option<T> {
-            Some(self.bar)
-        }
-    }
-
-    let another_foo = Foo { bar: 1 };
-    println!("{:?}", another_foo.frobnicate()); // Some(1)
-
     /////////////////////////////
     // 5. Generics and Methods //
     /////////////////////////////
