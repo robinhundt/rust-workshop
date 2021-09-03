@@ -13,6 +13,7 @@
 // 1. Basics //
 ///////////////
 
+#[allow(dead_code)] // ignore these statements
 // Functions
 // `i32` is the type for 32-bit signed integers
 fn add2(x: i32, y: i32) -> i32 {
@@ -20,6 +21,10 @@ fn add2(x: i32, y: i32) -> i32 {
     x + y
 }
 
+#[allow(unused_variables)]
+#[allow(unused_assignments)]
+#[allow(dead_code)]
+#[allow(path_statements)]
 // Main function
 fn main() {
     // Numbers //

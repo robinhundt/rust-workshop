@@ -3,13 +3,5 @@
 version = 3
 
 [[package]]
-name = "assembly-line"
-version = "0.1.0"
-
-[[package]]
-name = "leap"
-version = "1.6.0"
-
-[[package]]
-name = "short_fibonacci"
+name = "cheat_sheet"
 version = "0.1.0"
