@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "cheat_sheet",
+    "aufgaben-1/assembly-line",
+    "aufgaben-1/health-statistics", 
+    "aufgaben-1/two-fer", 
+    "aufgaben-1/short-fibonacci"
+]
