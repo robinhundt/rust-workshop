@@ -7,6 +7,10 @@ name = "assembly-line"
 version = "0.1.0"
 
 [[package]]
+name = "beer-song"
+version = "0.0.0"
+
+[[package]]
 name = "caesar"
 version = "0.1.0"
 
@@ -20,6 +24,10 @@ version = "0.1.0"
 
 [[package]]
 name = "mult_table"
+version = "0.1.0"
+
+[[package]]
+name = "rpn_calculator"
 version = "0.1.0"
 
 [[package]]

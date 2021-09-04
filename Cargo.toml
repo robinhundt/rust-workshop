@@ -7,5 +7,7 @@ members = [
     "aufgaben-1/short-fibonacci",
     "aufgaben-2/caesar",
     "aufgaben-2/mult_table",
-    "aufgaben-2/smallest_elements"
+    "aufgaben-2/smallest_elements",
+    "aufgaben-extra/beer-song",
+    "aufgaben-extra/rpn-calculator",
 ]
